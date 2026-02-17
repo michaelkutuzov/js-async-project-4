@@ -1,0 +1,36 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Simple package for downloading pages from Web",
+  "keywords": [
+    "webpage",
+    "download"
+  ],
+  "homepage": "https://github.com/michaelkutuzov/js-async-project-4#readme",
+  "bugs": {
+    "url": "https://github.com/michaelkutuzov/js-async-project-4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkutuzov/js-async-project-4.git"
+  },
+  "license": "WTFPL",
+  "author": "Michael Kutuzov aka schwejk",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "bin": {
+    "page-loader": "./index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.8.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jest": "^29.15.0",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0"
+  }
+}
